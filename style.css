@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    height: 100vh;
+    /*
+    background-image: url("imagem/img4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+    
+    background: black url(imagem/img4.png) center center no-repeat fixed;
+    background-size: cover;
+
+    }
+
+   
+header > h1{
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(25, 26, 25, 0.774);
+    font-family: "Sixtyfour Convergence", sans-serif;
+    margin-top: 20px;
+}
+
+section{
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(253, 253, 253, 0.137);
+    padding: 15px;    
+    max-width: 300px; 
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+    box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.514);
+    }
+
+
+p {
+    text-align: center;
+    font: 17pt normal arial;
+    font-size: 1.5em;
+    padding: 10px;
+    
+}
+
+p:hover{
+    background-color: rgba(240, 248, 255, 0.192); 
+    border-radius: 5px;
+
+}
+
+.butao:hover{
+    background-color: rgb(245, 222, 179);
+    border-radius: 50%;
+}
+
+
+.rodape{
+    text-decoration: none;
+    font-style: italic;
+    color: aliceblue; 
+    font-size: 1.1em;
+    position: relative;
+    left: 47%;  
+}
+
+.rodape:hover{
+    text-decoration: underline white;
+    font-size: 1.2em;
+}
