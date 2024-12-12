@@ -49,25 +49,21 @@ div{
 }
 
 .rodape:hover{
-    text-decoration: underline white;
     font-size: 1.2em;
 }
 
 .aud{
     height: 25px;
-    width: 88px;
+    width: 60px;
     position: absolute;
-    left: 92%;
-    top: 1%;
+ 
     
 }
 
 .aud:hover{
     height: 25px;
-    width: 400px;
-    position: absolute;
-    left: 70%;
-    top: 1%;
+    width: 300px;
+  
     background-color: rgb(255, 255, 255);
     border-style: none;
 }
