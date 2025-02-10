@@ -17,7 +17,7 @@ body{
     */
     
     background: black url(/imagem/img4.png) center center no-repeat fixed;
-    background-size: cover;
+    background-size: cover; /imagem/img4.png
 
     }
 
