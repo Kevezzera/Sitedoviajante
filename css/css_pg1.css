@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
 
 body{
-    background: black url(/imagem/img4.png) center center no-repeat fixed;
+    background: black url(../imagem/img4.png) center center no-repeat fixed;
     background-size: cover;
 }
 header{
