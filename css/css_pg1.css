@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
 
 body{
-    background: black url(imagem/img4.png) center center no-repeat fixed;
+    background: black url(/imagem/img4.png) center center no-repeat fixed;
     background-size: cover;
 }
 header{
+    margin: 20px;
     color: rgb(236, 241, 241);
     text-align: center;
     text-shadow: 3px 3px 5px rgba(13, 14, 13, 0.774);
@@ -30,14 +31,14 @@ div{
 .butao{
     font-size: 16px;
     border-style: none;
-}
-
-.butao:hover{
-    background-color: rgba(35, 243, 69, 0.719);
-    height: 25px;
-    border-radius: 10%;
-    border-style: none;
-    box-shadow: 0px 5px 0px 5px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(228, 101, 16, 0.887);
+    color: white;
+    border: solid black 1px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.604);
 }
 
 .rodape{
@@ -50,14 +51,6 @@ div{
 
 .rodape:hover{
     font-size: 1.2em;
-}
-
-.aud{
-    height: 25px;
-    width: 60px;
-    position: absolute;
- 
-    
 }
 
 .aud:hover{

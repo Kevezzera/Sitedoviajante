@@ -16,7 +16,7 @@ body{
     background-attachment: fixed;
     */
     
-    background: black url(imagem/img4.png) center center no-repeat fixed;
+    background: black url(/imagem/img4.png) center center no-repeat fixed;
     background-size: cover;
 
     }
