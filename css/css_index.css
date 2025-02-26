@@ -55,6 +55,10 @@ section{
 
 }
 
+.butao{
+    margin: auto;
+}
+
 .butao:hover{
     background-color: rgb(245, 222, 179);
     border-radius: 50%;
