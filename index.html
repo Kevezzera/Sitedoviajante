@@ -3,30 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone/favicon.ico" type="image/x-icon">
     <title>Viajem</title>
-    <link rel="stylesheet" href="css/css_index.css">
-    <script src="js.js"></script>
+    <link rel="stylesheet" href="css/css_pg1.css">
+     
 </head>
 <body>
     <header>
-        <h1>VIAJEM</h1>
+        <h1>Viajem</h1>
     </header>
-        
     <section>
         <div>
-            <p class="conteudo">Ta querendo viajar e não sabe o quanto vai gastar?<br>
 
-            <br> Pos aqui, voçê podera calcular o seu tempo de viajem, gasto com cobustivel e o quanto seu veículo irá consumir! <br>
-            
-             <br>Pressione prosseguir:<br>
+            <label for="txtkm">
+                <p><strong>Distancia em K/m:</strong>
+            </label> 
+            <input type="number" name="txtkm" id="txtkm" required> 
+            <div id="res1"></div>
+           
 
-            <br><a href="pg1.html"><img src="icone/botão_play.webp" alt="" class="butao" ></a></p>
+            <label for="txtval">
+                <p><strong>Preço da gasolina:</strong>
+            </label>
+            <input type="number" name="txtval" id="txtval">
+            <div id="res2"></div>
+
+
+            <label for="txtlit">
+                <p><strong>Consumo do automovel em Km/l</strong>
+            </label><br>
+            <input type="number" name="txtlit" id="txtlit">
+            <div id="res3"></div>
+            </p> 
+
+            <p>
+            <input type="button" value="Verifivar" onclick="clickar()" class="butao">
+            </p>
         </div>
+
+        
+        
     </section>
-    <footer>
-         <p class="rodape">
-            <a.class="rodape" href="https://github.com/Kevezzera" target="_blank">&copy;ggarcyya</a>
-        </p>
-    </footer>
+    
+    <footer><p class="rodape"><a class="rodape" href="https://github.com/Kevezzera" target="_blank">&copy;ggarcyya</a></p></footer>
+    
+    <script src="JAVASCRIPT.js"></script>
+    
 </body>
 </html>
