@@ -1,31 +1,26 @@
+let vl1 = document.querySelector('#txtkm')
+let vl2 = document.querySelector('#txtval')
+let vl3 = document.querySelector('#txtlit')
+let res = document.querySelector('#resposta')
 
-    function clickar () {
-        var tn1 = window.document.getElementById('txtkm')
-        var tn2 = window.document.getElementById('txtval')
-        var tn3 = window.document.getElementById('txtlit')
-        
-        var r1 = document.getElementById('res1')
-        var r2 = document.getElementById('res2')
-        var r3 = document.getElementById('res3')
-        
-        
-        var di = Number(tn1.value)
-        var va = Number(tn2.value)
-        var li = Number(tn3.value)
-        
-        var vm = 80;
-        
-        var hs = (di / vm)
-        var lt = (di / li)
-        var gast = (va * lt )
 
-        var g = gast.toFixed(2)
-        var l = lt.toFixed(2)
-        var h = hs.toFixed(2)
+function clickar () {
+    
+    let di = Number(vl1.value)
+    let va = Number(vl2.value)
+    let li = Number(vl3.value)
         
-        r1.innerText = `Tempo de viajem: ${h} Horas.`
-        r2.innerText = `Gasto com combustivel: ${g} R$. `
-        r3.innerText = `Consumo com combustivel: ${l} Lt.`
-    }
+    let vm = 80;
+        
+    let hs = (di / vm)
+    let lt = (di / li)
+    let gast = (va * lt )
+
+    let g = gast.toFixed(2)
+    let l = lt.toFixed(2)
+    let h = hs.toFixed(2)
+    
+    res.innerHTML = `Seu tempo de viajem sera de <strong>${h}</strong> horas, a uma velocidade média de 80 kilometros por hora consumindo assim um total de <strong>${l}</strong> Lt. de gasolina, que custara <strong>${g}</strong> R$. `
+}
     
   
