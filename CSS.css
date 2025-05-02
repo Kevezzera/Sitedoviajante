@@ -14,6 +14,7 @@ header > h1{
     font-family: "Sixtyfour Convergence", sans-serif;
 }
 section{
+    display: grid;
     margin: auto;
     margin-top: 20px;
     background-color: rgba(253, 253, 253, 0.137);
