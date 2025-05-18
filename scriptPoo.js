@@ -21,7 +21,7 @@ class Viajem {
         let c = consu.toFixed(2)
 
         setTimeout(() => {
-            res.innerHTML = `Seu tempo de viajem sera de <strong>${t}</strong> horas, a uma velocidade média de 80 kilometros por hora consumindo assim um total de <strong>${c}</strong> Lt. de gasolina, que custara <strong>${g}</strong> R$. `
+            res.innerHTML = `Seu tempo de viajem sera de <strong>${t}</strong> horas, a uma velocidade média de 80 kilometros por hora, consumindo um total de <strong>${c}</strong> Lt. de gasolina, que custara <strong>${g}</strong> R$. `
         },900)
         
     }
@@ -42,7 +42,7 @@ class Viajem {
 
         resposta.style.transition = 'height 1s ease-in-out';
         
-        resposta.style.height = '200px'
+        resposta.style.height = '215px'
         resposta.style.padding = '10px';
     }
 
